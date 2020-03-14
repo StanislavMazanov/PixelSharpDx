@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSharpDx", "PixelSharpDx\PixelSharpDx.csproj", "{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{5F47A290-DDB8-4D67-AE86-1012C41116DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFA69059-8A37-4E77-91C7-E5EF9D592E92}
+	EndGlobalSection
+EndGlobal
