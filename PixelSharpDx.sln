@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSharpDx", "PixelSharpDx\PixelSharpDx.csproj", "{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomPixelColor", "PixelSharpDx\RandomPixelColor.csproj", "{7CD4EECC-C4F4-4C3E-BDEB-02C0101F8063}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{5F47A290-DDB8-4D67-AE86-1012C41116DF}"
 EndProject
