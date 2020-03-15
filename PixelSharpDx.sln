@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomPixelColor", "PixelSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{5F47A290-DDB8-4D67-AE86-1012C41116DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireDemo", "FireDemo\FireDemo.csproj", "{6BE0AC7C-DD38-49B1-8696-D3A04B2F2E0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F47A290-DDB8-4D67-AE86-1012C41116DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE0AC7C-DD38-49B1-8696-D3A04B2F2E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE0AC7C-DD38-49B1-8696-D3A04B2F2E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE0AC7C-DD38-49B1-8696-D3A04B2F2E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE0AC7C-DD38-49B1-8696-D3A04B2F2E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

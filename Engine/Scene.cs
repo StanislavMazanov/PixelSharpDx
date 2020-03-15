@@ -53,6 +53,8 @@ namespace Engine
         {
             _sceneOptions = sceneOptions;
             _form = new RenderForm(sceneOptions.Title);
+            _form.Width = _sceneOptions.Width;
+            _form.Height = _sceneOptions.Height;
             Initialize();
 
         }
