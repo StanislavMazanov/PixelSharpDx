@@ -76,19 +76,51 @@ namespace PixelSharpDx
                 Width = 800,
                 Title = "Demoscena"
             };
-        //    var scene = new Scene(sceneOptions);
+            var scene = new Scene(sceneOptions);
+            scene.SetPixel(100, 100, 10);
 
-            //var color = 12;
-
-
-
-            ////scene.SetPoint(0, 0, color);
+            scene.Run();
 
 
 
+            //using (var loop = scene.RenderLoop2())
+            //{
 
-             _window = new RenderForm("SharpDX Tutorial 0");
-        }
+            //    while (loop.NextFrame())
+            //    {
+            //        //scene.SetPixel(j, i, c);
+
+
+            //for (int c = 30000;c < 250000;c++)
+            //{
+            //    for (int i = 0;i < 100;i++)
+            //    {
+            //        for (int j = 0;j < 100;j++)
+            //        {
+
+            //            scene.SetPixel(j, i, c);
+
+            //        }
+
+            //    }
+                //            scene.Render();
+
+                //        }
+
+
+
+                //    }
+
+
+                //}
+
+
+
+
+
+
+            }
+
 
         public void Run()
         {
@@ -108,7 +140,7 @@ namespace PixelSharpDx
                    new BitmapProperties(RenderTarget2D.PixelFormat));
 
 
-           // var color4g = new Color4(0.1f, 0.1f, 0.1f, 1.0f);
+            // var color4g = new Color4(0.1f, 0.1f, 0.1f, 1.0f);
             //var color4r = new Color4(0.5f, 0.5f, 0.5f, 1.0f);
             var color4r = Color4.White;
             for (int j = 0;j < 200;j++)
@@ -117,10 +149,10 @@ namespace PixelSharpDx
                 {
                     DrawPoint(i, j, color4r);
                     //DrawPoint(101 + j, 71 + i, color4g);
-                //    DrawPoint(102 + j, 100 + i, color4r);
+                    //    DrawPoint(102 + j, 100 + i, color4r);
                     //DrawPoint(103 + j, 73 + i, color4g);
                     //DrawPoint(104 + j, 74 + i, color4r);
-      
+
                 }
             }
             int stride = _width * sizeof(int);
@@ -139,27 +171,11 @@ namespace PixelSharpDx
                             RenderTarget2D.BeginDraw();
 
                             PrepareScene();
-                            
-                            
+
+
                             RenderTarget2D.DrawBitmap(_bitmap, 1f,
                                 BitmapInterpolationMode.Linear);
                             //Thread.Sleep(10);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             //_renderTarget.Clear(SharpDX.Color.Black);
 
 
@@ -195,14 +211,14 @@ namespace PixelSharpDx
 
         private void PrepareScene()
         {
-         var r = new Random();
+            var r = new Random();
 
 
             for (int j = 0;j < 200;j++)
             {
                 for (int i = 0;i < 200;i++)
                 {
-                   // int d = r.Next();
+                    // int d = r.Next();
 
                     var color4r = new Color4(r.Next(), r.Next(), r.Next(), 1000000);
 

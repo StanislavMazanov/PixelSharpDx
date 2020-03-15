@@ -11,7 +11,7 @@ namespace PixelSharpDx
         static void Main(string[] args)
         {
             var game = new Core();
-            game.Run();
+           // game.Run();
 
         }
     }
