@@ -6,3 +6,7 @@ This is the Demoscene project. Based on the SharpDx graphics library . Only work
 
 <p align="center"><img src="http://deptech.ru/wp-content/uploads/2020/03/RandomPixelColor.png" width="400"></p>
 
+## Emulation Fire
+<p align="center"><img src="http://deptech.ru/wp-content/uploads/2020/03/Fire.png" width="400"></p>
+
+
