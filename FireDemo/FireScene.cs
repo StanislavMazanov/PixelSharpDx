@@ -25,7 +25,6 @@ namespace FireDemo
 
             for (int i = 1;i <= WidthFire;i++)
             {
-
                 _fireBuffer[i * HeightFire - 1] = 255;
             }
         }
@@ -53,26 +52,13 @@ namespace FireDemo
                         color = 0;
                     }
 
-                    // _fireBuffer[y + HeightFire * x+ dst] = (byte) (color);
                     _fireBuffer[y + colFire] = (byte) (color);
 
                     SetPixel(x, y, (byte) color, 0, 0);
                 }
             }
 
-            //for (int i = 1;i <= WidthFire;i++)
-            //{
-            //    _fireBuffer[i * HeightFire - 1] = (byte) _random.Next(255, 255);
-            //}
-
-
-           Thread.Sleep(100);
+            Thread.Sleep(100);
         }
-
-        //private void SpreadFire(int src)
-        //{
-        //    _fireBuffer[src - FIRE_WIDTH] = _fireBuffer[src] - 1;
-        //}
-
     }
 }
